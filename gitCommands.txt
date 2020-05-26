@@ -1,0 +1,448 @@
+    2  cd Full\ Stack\ 
+    3  li
+    4  cd Full Stack Dev
+    5  li
+    6  cls
+    7  clear
+    8  pwd
+    9  ls
+   10  cls
+   11  clear
+   12  ls -a
+   13  clear
+   14  cd Desktop/
+   15  ls
+   16  clear
+   17  cd ..
+   18  cd 
+   19  cd Desktop/
+   20  CD
+   21  mkdir Training
+   22  ls
+   23  cd Training/
+   24  ls
+   25  clear
+   26  ls
+   27  ls -a
+   28  clear
+   29  touch file1.txt
+   30  ls
+   31  echo "Dhyananhita.org" > file1.txt 
+   32  cat file1.txt 
+   33  echo "Anil@dhyananhita.org" > file1.txt 
+   34  cat file1.txt 
+   35  echo "Dhyanahita.org" >> file1.txt 
+   36  cat file1.txt 
+   37  rm help
+   38  rm --help
+   39  clear
+   40  touch file2.txt
+   41  ls
+   42  rm file2.txt 
+   43  ls
+   44  touch --help
+   45  clear
+   46  echo --help
+   47  rm --help
+   48  clear
+   49  gedit file1.txt 
+   50  nano file1.txt 
+   51  cat file1.txt 
+   52  clear
+   53  exit
+   54  git clone https://github.com/Anil-a431/Git-Learning.git
+   55  exit
+   56  git pull Git-Learning master
+   57  exit
+   58  npm install
+   59  npm start
+   60  cd Desktop/Training/
+   61  clear
+   62  li
+   63  ls
+   64  clear
+   65  ls
+   66  cat file1.txt 
+   67  clear
+   68  mkdir Git
+   69  ls
+   70  git init
+   71  ls 
+   72  ls -a
+   73  cd .git/
+   74  ls
+   75  clear
+   76  cd ..
+   77  ls
+   78  git status
+   79  git add file1.txt 
+   80  git status
+   81  clear
+   82  git commit -m "First Commit
+   83  git commit -m "First Commit"
+   84  git config --global user.email "madishettyanilkumar9@gmail.com"
+   85  git config --global user.name "Anilkumar"
+   86  git config user,email
+   87  git config user.email
+   88  git config user.name
+   89  clear
+   90  git commit -m "First Commit"
+   91  git config user.email
+   92  git config user.name
+   93  git status
+   94  nano file1.txt 
+   95  git status
+   96  git add file1.txt 
+   97  git commit -m "Second Commit"
+   98  clear
+   99  git status
+  100  git add 01-02-2020.ipynb 
+  101  git commit -m "New File Commit for First"
+  102  git status
+  103  clear
+  104  git status
+  105  git add *.ipynb
+  106  git commit -m "Login Registation and Update Profile"
+  107  git commit log
+  108  git log
+  109  clear
+  110  mkdir Git-Learning
+  111  ls
+  112  git remote -help
+  113  clear
+  114  git remote add  Git-Learning https://github.com/Anil-a431/Git-Learning
+  115  git remote show
+  116  git remote -v
+  117  git pull -help
+  118  clear
+  119  git pull Git-Learning 
+  120  git pull Git-Learning master
+  121  git config global http.proxy http://hydwsa1.gitam.edu
+  122  git p://hydwsa1.gitam.edu:3128
+  123  git config --global http.proxy http://hydwsa1.gitam.edu
+  124  git pull Git-Learning master
+  125  git pull Git-Learning master
+  126  git pull Git-Learning master
+  127  git config --global http.proxy http://hydwsa1.gitam.edu:3128
+  128  git pull Git-Learning master
+  129  git config --global --unset http.proxy
+  130  git pull Git-Learning master
+  131  clear
+  132  git push -help
+  133  clear
+  134  git push -u Git-Learning
+  135  git push --set-upstream Git-Learning master
+  136  git pull Git-Learning master
+  137  clear
+  138  git pull -u Git-Learning 
+  139  git pull -u Git-Learning master
+  140  git push -u Git-Learning master
+  141  git push --help
+  142  git push -f --set-upstream Git-Learning master
+  143  clear
+  144  git status
+  145  git add *.ipynb
+  146  git commit -m "Test for New Upload"
+  147  clear
+  148  git status
+  149  git pull Git-Learning master
+  150  git pull Git-Learning master
+  151  git push Git-Learning 
+  152  dir
+  153  clear
+  154  ls
+  155  clear
+  156  exit
+  157  D
+  158  D:
+  159  D:
+  160  clear
+  161  D:
+  162  cd D:
+  163  D:
+  164  https://github.com/Billwilliams1952/PiCameraApp.git
+  165  git clone https://github.com/Billwilliams1952/PiCameraApp.git
+  166  exit
+  167  git clone https://github.com/Terance98/Age-Calculator.git
+  168  exit
+  169  git clone https://github.com/ganeshkavhar/Calender-app-in-C-by-ganesh-kavhar.git
+  170  exit
+  171  git clone https://github.com/dtpublic/malhar-angular-dashboard.git
+  172  npm install -g gulp
+  173  unset http_proxy
+  174  npm install -g gulp
+  175  npm unset http_proxy
+  176  npm config rm proxy
+  177  clear
+  178  exit
+  179  git clone https://github.com/akveo/ngx-admin.git
+  180  npm install -g @angular/cli
+  181  ng serve
+  182  ng update -all
+  183  ng serve
+  184  exit
+  185  npm install -g gulp
+  186  gulp
+  187  bower install
+  188  gulp build
+  189  npm install
+  190  ng serve
+  191  npm install -g @angular/cli
+  192  ng serve
+  193  exit
+  194  cd Desktop/
+  195  exit
+  196  nano test.py
+  197  python test.py 
+  198  nano test.py 
+  199  python test.py 
+  200  exit
+  201  git --version
+  202  pwd
+  203  ls
+  204  ls -a
+  205  clear
+  206  ls
+  207  cd Desktop
+  208  pwd
+  209  clear
+  210  cd ..
+  211  cd
+  212  cd Desktop/
+  213  mkdir ProgPython
+  214  ls
+  215  clear
+  216  cd ProgPython
+  217  touch Data.txt
+  218  ls
+  219  cat Data.txt 
+  220  echo "Dhyanahita" > Data.txt 
+  221  cat Data.txt 
+  222  echo "Python Programming" > Data.txt 
+  223  cat Data.txt 
+  224  echo "Dhyanahita" >> Data.txt 
+  225  cat Data.txt 
+  226  exit
+  227  cd Desktop/ProgPython/
+  228  ls
+  229  touch File1.txt
+  230  ls
+  231  echo "Good Morning" > File1.txt 
+  232  cat File1.txt 
+  233  clear
+  234  echo "Dhyanahita" > File1.txt 
+  235  cat File1.txt 
+  236  echo "Good Morning" >> File1.txt 
+  237  cat File1.txt 
+  238  clear
+  239  nano Data.txt 
+  240  cat Data.txt 
+  241  nano Data.txt 
+  242  clear
+  243  rm File1.txt 
+  244  ls
+  245  mkdir test
+  246  ls
+  247  rm -d test
+  248  ls
+  249  clear
+  250  git init
+  251  git status
+  252  git add Data.txt 
+  253  git status
+  254  clear
+  255  git commit -m 'First Commit'
+  256  git status
+  257  git config --global user.email 'madishettyanilkumar9@gmail.com'
+  258  git config --global user.name 'AnilKumar'
+  259  git config user.email
+  260  git config user.name
+  261  clear
+  262  git log
+  263  git remote -help
+  264  clear
+  265  mkdir PythonCourse
+  266  ls
+  267  git remote -help
+  268  git remote add PythonCourse https://github.com/Anil-a431/PythonCourse
+  269  git remote show
+  270  git remote -v
+  271  clear
+  272  git pull PythonCourse master
+  273  git push -help
+  274  clear
+  275  git pull -u PythonCourse master
+  276  clear
+  277  git push -u PythonCourse 
+  278  git push --set-upstream PythonCourse master
+  279  git push -f --set-upstream PythonCourse master
+  280  clear
+  281  nano Data.txt 
+  282  git status
+  283  git add Data.txt 
+  284  git commit -m 'New commit 06-04-2020'
+  285  git log
+  286  git pull PythonCourse master
+  287  git push -u PythonCourse 
+  288  clear
+  289  nano File1.txt
+  290  cat File1.txt 
+  291  git status
+  292  ls
+  293  git add File1.txt 
+  294  git commit -m "First Commit"
+  295  git status
+  296  git pull PythonCourse master
+  297  git push -u PythonCourse 
+  298  exit
+  299  git status
+  300  git add *.rap
+  301  git status
+  302  git commit -m "Final Examples of Raptor"
+  303  git pull PythonCourse master
+  304  git push -u PythonCourse 
+  305  ]
+  306  git push -u PythonCourse 
+  307  exit
+  308  git clone https://github.com/Miraj50/Awesome-Tkinter-Apps.git
+  309  exit
+  310  cd Desktop/ProbSolProgramming/
+  311  clear
+  312  ls
+  313  cat Data.txt 
+  314  gedit Data.txt 
+  315  nano Data.txt 
+  316  cat Data.txt 
+  317  clear
+  318  touch file1.txt
+  319  ls
+  320  rm file1.txt 
+  321  ls
+  322  exit\
+  323  exit
+  324  cd Desktop/
+  325  cd ProbSolProgramming/
+  326  ls
+  327  clear\
+  328  clear
+  329  git init
+  330  git status
+  331  git add Data.txt 
+  332  git status
+  333  git commit -m "First Git Commit"
+  334  git status
+  335  clear
+  336  git config --global user.email "madishettyanilkumar9@gmail.com"
+  337  git config --global user.name "AnilKumar" 
+  338  git config user.email
+  339  git config user.name
+  340  git status
+  341  clear
+  342  nano Data.txt 
+  343  git status
+  344  git add Data.txt 
+  345  git status
+  346  git commit -m "Second Git Commit"
+  347  git status
+  348  git log
+  349  clear
+  350  mkdir ProbSol-Python
+  351  ls
+  352  git remote --help
+  353  git remote -help
+  354  clear
+  355  git remote -help
+  356  git remote add ProbSol-Python https://github.com/Anil-a431/ProbSol-Python
+  357  git remote show
+  358  git remote -v
+  359  git pull -help
+  360  clear
+  361  git pull ProbSol-Python master
+  362  git push -u ProbSol-Python 
+  363  git push --set-upstream ProbSol-Python master
+  364  git push -f --set-upstream ProbSol-Python master
+  365  clear
+  366  nano Data.txt 
+  367  git status
+  368  git add Data.txt 
+  369  git status
+  370  git commit -m "Third Git Commit"
+  371  git status
+  372  git pull ProbSol-Python master
+  373  git push -u ProbSol-Python 
+  374  exir\
+  375  exit
+  376  git --version
+  377  pwd
+  378  ls
+  379  ls -a
+  380  clear
+  381  cd Desktop/
+  382  cd Raptor
+  383  cd ..
+  384  cd
+  385  cd Desktop/
+  386  clear
+  387  mkdir FullStackDev
+  388  ls
+  389  cd FullStackDev/
+  390  clear
+  391  touch Full_Stack.txt
+  392  ls
+  393  cat Full_Stack.txt 
+  394  echo "Full Stack Developer" > Full_Stack.txt 
+  395  cat Full_Stack.txt 
+  396  echo "HTML and CSS" > Full_Stack.txt 
+  397  cat Full_Stack.txt 
+  398  echo "JavaScript" >> Full_Stack.txt 
+  399  cat Full_Stack.txt 
+  400  clear
+  401  gedit Full_Stack.txt 
+  402  nano Full_Stack.txt 
+  403  cat Full_Stack.txt 
+  404  nano Data.txt
+  405  ls
+  406  nano Data.txt
+  407  clear
+  408  rm help
+  409  rm --help
+  410  cleaer
+  411  clear
+  412  rm Data.txt
+  413  ls
+  414  rm -f Data.txt
+  415  rm -d <DirName>
+  416  rmdir --help
+  417  clear
+  418  mkdir Git
+  419  ls
+  420  git init
+  421  git status
+  422  git add Full_Stack.txt 
+  423  git status
+  424  clear
+  425  git commit -m "First Commit"
+  426  git config --global user.email 'madishettyanilkumar9@gmail.com'
+  427  git config --global user.name 'Anilkumar-DSPS'
+  428  git config user.email
+  429  git config user.name
+  430  clear
+  431  nano Full_Stack.txt 
+  432  git status
+  433  git add Full_Stack.txt 
+  434  git commit -m "Second Commit"
+  435  git log
+  436  clear
+  437  mkdir Full-Stack
+  438  ls
+  439  git remote -help
+  440  git remote add Full-Stack https://github.com/Anil-a431/Full-Stack
+  441  git remote show
+  442  git remote -v
+  443  git pull Full-Stack master
+  444  git push -u Full-Stack 
+  445  git push --set-upstream Full-Stack master
+  446  git push -f --set-upstream Full-Stack masteer
+  447  git push -f --set-upstream Full-Stack master
+  448  history 
+  449  history 448 > gitCommands.txt
