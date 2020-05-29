@@ -1,0 +1,21 @@
+a{
+    color:darkblue;
+}
+a:link{
+    color:red;
+    text-decoration: none;
+    display: inline-block;
+    padding-left:10px;
+    text-align: center;
+}
+a:hover{
+    color:green;
+    background-color: lightblue;
+    font-size: large;
+    text-decoration: underline;
+    text-align: center;
+}
+a:active{
+    color:blue;
+
+}

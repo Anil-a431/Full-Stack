@@ -1,0 +1,22 @@
+
+ul{
+    list-style-type: none;
+    border:2px solid green;
+    background-color: lightslategray;;
+}
+ul a{
+    display: inline-block;
+    color:darkblue;
+    margin:10px;
+    text-decoration: none;
+    font-size: 20px;
+    border:2px solid chocolate;
+}
+ul a:hover{
+    color:orangered;
+    background-color: lightcyan;
+    font-size: large;
+}
+ul a:active{
+    color:goldenrod;
+}
