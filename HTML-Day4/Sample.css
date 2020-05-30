@@ -1,0 +1,38 @@
+table,th,td{
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+input[type=text],input[type=password]{
+    width: 90%;
+    margin:8px;
+    padding: 10px;
+    box-sizing: border-box;
+    border:2px solid red;
+    border-radius: 5px;
+    background-color:darkgray;
+    color:white;
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    color:darkblue;
+    text-align: center;
+    margin-left: 10px;
+}
+th p{
+    font-size: x-large;
+    font-family: monospace;
+    font-variant: small-caps;
+    text-align: center;
+}
+input[type=button]{
+    width:100%;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+    background-color: darkgray;
+    color:wheat;
+}

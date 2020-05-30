@@ -1,0 +1,13 @@
+select{
+    width: 100%;
+    margin:20px,10px,20px,20px;
+    border: 2px double darkblue;
+    background-color: lightgrey;
+    font-size: large;
+    color:darkviolet;
+    padding-left:30px;
+}
+option{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

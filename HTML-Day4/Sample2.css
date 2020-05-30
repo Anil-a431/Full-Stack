@@ -1,0 +1,13 @@
+.a1{
+    color:dimgray;
+    text-shadow: 2px 3px red;  
+    text-align: center;  
+}
+.a2{
+    box-shadow: 2px 3px 2px 3px darkviolet;
+    text-align: center;
+    color:red;
+    width: 300px;
+    height: 100%;
+    margin-left: 50px;
+}
