@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function myCheck(){
+                var v1,v2;
+                v1 = document.getElementById("txt1").value;
+                v2 = document.getElementById("txt2").value;
+                if(v1 == "admin" && v2 == "admin"){
+                    window.alert('Successful');
+                }
+                else{
+                    window.alert('Unsuccessful');
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="txt1" /> <br />
+        <input type="text" id="txt2" /> <br />
+        <button type="button" onclick="myCheck()">Check</button>
+    </body>
+</html>
