@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Forms</title>
+        <link rel="StyleSheet" href="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css" />
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <style type="text/css">
+        html,body{
+            background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col input-group form-group">
+                        <div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
+						</div>
+                        <input type="text" class="form-control" id="txtUsername" placeholder="Enter Username" />
+                    </div>
+                    <div class="col input-group form-group">
+                        <div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
+						</div>
+                        <input type="text" class="form-control" id="txtPassword" placeholder="Enter Password" />
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary lg center login_btn">Login</button>
+            </form>
+        </div>
+    </body>
+</html>
