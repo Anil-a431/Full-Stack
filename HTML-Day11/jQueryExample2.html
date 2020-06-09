@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#btnHide").click(function(){
+                    $("#id1").hide();
+                });
+                $("#btnShow").click(function(){
+                    $("#id1").show();
+                });
+                $("#btnToggle").click(function(){
+                    $("#id2").toggle(2000);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1 id="id1">Dhyanahita-DSPS</h1>
+        <h1 id="id2">Gitam University</h1>
+        <button type="button" id="btnHide">Hide</button>
+        <button type="button" id="btnShow">Show</button>
+        <button type="button" id="btnToggle">Toggle</button>
+    </body>
+</html>
