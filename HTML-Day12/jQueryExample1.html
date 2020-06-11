@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery Accrodins</title>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#div1").slideUp();
+                $("#div2").slideUp();
+                $("#div3").slideUp();
+                $("#id1").click(function(){
+                    $("#div1").slideDown();
+                    $("#div2").slideUp();
+                    $("#div3").slideUp();
+                });
+                $("#id2").click(function(){
+                    $("#div2").slideDown();
+                    $("#div1").slideUp();
+                    $("#div3").slideUp();
+                });
+                $("#id3").click(function(){
+                    $("#div3").slideDown();
+                    $("#div1").slideUp();
+                    $("#div2").slideUp();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div>
+            <h2 id="id1">Section1</h2>
+            <div id="div1">
+                <p>Some text you can write here</p>
+            </div>
+        </div>
+        <div>
+            <h2 id="id2">Section2</h2>
+            <div id="div2">
+                <p>Some text you can write here</p>
+            </div>
+        </div>
+        <div>
+            <h2 id="id3">Section3</h2>
+            <div id="div3">
+                <p>Some text you can write here</p>
+            </div>
+        </div>
+    </body>
+</html>

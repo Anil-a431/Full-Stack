@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css"/>
+        <script src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+        <script src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui-1.12.1/jquery-ui.min.css">
+        <script type="text/javascript" src="jquery-ui-1.12.1/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#div1").tabs();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Open Modal
+            </button>
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Modal Header</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div id="div1">
+                                <ul>
+                                    <li><a href="#signin">Sign In</a></li>
+                                    <li><a href="#signup">Sign Up</a></li>
+                                </ul>
+                                <div id="signin">
+                                    <p>Login</p>
+                                </div>
+                                <div id="signup">
+                                    <p>Registration</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
