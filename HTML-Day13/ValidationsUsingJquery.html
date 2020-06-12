@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="StyleSheet" href="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css" />
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+        <script type="text/javascript">
+                $(document).ready(function(){
+                    var email,password;
+                    
+                    
+                   $("#validateLogin").validate(
+                        {
+                       rules : {
+                           email = $("#txtUsername").val(),
+                           email:{
+                                required : true
+                           },
+                           password = $("#txtPassword").val(),
+                           password:{
+                               required : true
+                           }
+                       },
+                       messages :{
+                           email:{
+                               required : "Enter EmailID"
+                           },
+                           password:{
+                               required : "Enter Password"
+                           }
+                       }
+                   });
+                });
+        </script>
+        <style type="text/css">
+    
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form action="" method="POST" >
+            <div class="form-group">
+                <label for="Username">EmailID</label>
+                <input  type="text" class="form-control" id="txtUsername" placeholder="Enter Username"/>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="text" class="form-control" id="txtPassword" placeholder="Enter Password" />
+            </div>
+
+        
+            <button type="button" class="btn btn-primary" id="validateLogin" >Login</button>
+        </form>
+    </div>
+    </body>
+</html>

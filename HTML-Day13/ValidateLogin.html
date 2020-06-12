@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery Validation</title>
+        <link rel="StyleSheet" href="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css" />
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+        <script type="text/javascript">
+            var minuserlen=6, maxuserlen=12;
+            var minpasslen=6, maxpasslen=12;
+            $(document).ready(function(){
+                $("#validateLogin").validate({
+                    rules: {
+                        email: {
+                            required: true,
+                            milength: minuserlen,
+                            maxlength: maxuserlen
+                        },
+                        password: {
+                            required:true,
+                            milength: minpasslen,
+                            maxlength: maxpasslen
+                        },
+                    },
+                    messages: {
+                        email: {
+                                required: "Enter EmailID"
+                        },
+                        password: {
+                            required: "Enter Password"
+                        }
+                    }
+                });  
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container d-flex">
+            <form id="validateLogin"> 
+                <div class="form-group">
+                    <label for="email">EmailID</label>
+                    <input type="text"  class="form-control" id="email" name="email" placeholder="Enter EmailId"/><br>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" name="password" placeholder="Enter Password"/><br>
+                </div>
+                <button type="submit" class="btn btn-primary" value="submit">Sign In</button>
+            </form> 
+        </div>
+    </body>
+</html>
